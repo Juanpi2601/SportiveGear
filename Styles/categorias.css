@@ -1,0 +1,27 @@
+.page-link:hover {
+    color: #0056b3;
+}
+.page-item{
+    color: black;
+}
+.page-link {
+    color: black !important;
+}
+.description{
+    text-align: center;
+    font-size: 25px;
+}
+
+.botones{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    background-color: #002A61;
+}
+
+.accordion-button{
+    background-color: transparent;
+    color: white;
+    background-color: #002A61;
+}
+

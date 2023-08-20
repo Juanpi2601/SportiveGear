@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./Styles/Index.css">
+    <link rel="stylesheet" href="./Styles/nosotros.css">
+    <title>Acerca de nosotros</title>
+</head>
+<body>
+    <header>
+        <div class="nav-top bg-black bg-gradient">
+            <div class="container text-white section-nav p-1 d-flex justify-content-between">
+            <button class="d-md-none rounded-pill">
+              <a href="#"><i class="bi bi-person-lines-fill"></i></a>
+          </button>
+          <button class="d-none d-md-inline rounded-pill">
+              <a href="#"><i class="bi bi-person-lines-fill"></i> Acerca de Nosotros</a>
+          </button>
+          <h6 class="mt-2 d-lg-none text-center">Envio gratis desde los $19999</h6>
+          <h6 class="mt-2 d-none d-lg-inline">Envio gratis desde los $19999 | 3 cuotas sin interés </h6>
+            <button class="d-md-none rounded-pill">
+                <a href="./Contacto.html"><i class="bi bi-people-fill"></i></a>
+            </button>
+            <button class="d-none d-md-inline rounded-pill">
+                <a href="./Contacto.html"><i class="bi bi-people-fill"></i> Contacto</a>
+            </button>
+            </div>
+        </div>
+        <div> <!-- Para poner fexedado el navbar (No fixear en las otras paginas)-->
+            <!-- Nav --> 
+
+                <div class="container-fluid nav-main">
+                    <div class="row h-100 align-items-center">
+                      <div class="col-2 d-lg-none">
+                          <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <i class="bi bi-dribbble"></i>
+                          </button>
+                          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              <div>
+                                <h2 class="mb-4">Categorias</h2>
+                              </div>
+                              <div class="mb-3">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  <b>Hombre</b>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                                </ul>
+                              </div>
+                              <div class="mb-3">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  <b>Mujeres</b>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                                </ul>
+                              </div>
+                              <div class="mb-3">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  <b>Niños</b>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                                </ul>
+                              </div>
+                              <div class="mb-3">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  <b>Marcas</b>
+                                </button>
+                                <ul class="dropdown-menu text-center">
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-adidas-trébol-filled-70.png" alt="Adidas"></a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-nike-an-american-multinational-corporation---footwear,-apparel,-equipment,-accessories,-and-services-70.png" alt=""></a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-puma-a-german-multinational-company---designs-and-manufactures-athletic-and-casual-footwear,-apparel-and-accessories-70.png" alt=""></a></li>
+                                </ul>
+                              </div>
+                              <div class="mb-3">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  <b>Deportes</b>
+                                </button>
+                                <ul class="dropdown-menu text-center">
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-fútbol-2-70.png" alt=""></a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-baloncesto-70.png" alt=""></a></li>
+                                  <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-voleibol-70.png" alt=""></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-10 col-lg-12 d-flex justify-content-end justify-content-md-center align-items-center title-section">
+                        
+                        <div class="-titulo">
+                          <a href="index.html"><h3 class="me-0 me-md-4">SportiveGear</h3></a>      
+                        </div>
+                        <!--Modal de busqueda-->
+                        <div class="d-md-none">
+                            <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#searchModal">
+                                <i class="bi bi-search"></i>
+                              </button>
+                              
+                              <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title text-black" id="searchModalLabel">Búsqueda</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <form>
+                                        <div class="mb-3">
+                                          <label for="searchInput" class="form-label">Buscar</label>
+                                          <input type="text" class="form-control" id="searchInput" placeholder="Escribe tu búsqueda...">
+                                        </div>
+                                      </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      <button type="button" class="btn btn-primary">Buscar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="d-none d-md-inline w-50">
+                            <div class="input-group input-div">
+                                <input type="text" class="form-control border border-end-0 rounded-start-pill" placeholder="¿Que estas Buscando?" aria-label="¿Que estas Buscando?" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary border border-start-0 bg-white rounded-end-pill" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+                            </div>
+                        </div>
+                        
+                        <div class="link-nav-main">
+                          <button type="button" class="btn px-0 pe-0 d-lg-none buton"><a href="./Login.html"><i class="bi bi-person"></i></a>
+                          </button>
+                            <button class="btn px-0 pe-0 buton d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><a class="" href="#"><i class="bi bi-cart4"></i></a></button>
+                              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Mi Carrito</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                  <div class="card mb-3 card-carrito">
+                                    <div class="row g-0">
+                                      <div class="col-3 d-flex align-items-center">
+                                        <img src="./img-zapatillas/zapatilla-m-1.png" class="img-fluid rounded-start" alt="...">
+                                      </div>
+                                      <div class="col-7">
+                                        <div class="card-body">
+                                          <h6 class="card-title">Zapatillas Asics Gel-Sonoma 6 Standard W Black- de Mujer</h6>
+                                          <p class="card-text">$32.999</p>
+                                        </div>
+                                      </div>
+                                      <div class="col-2 d-flex align-items-center">
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3 card-carrito">
+                                    <div class="row g-0">
+                                      <div class="col-3 d-flex align-items-center">
+                                        <img src="./img-Pantalones/Pantalones Hombre1.png" class="img-fluid rounded-start" alt="...">
+                                      </div>
+                                      <div class="col-7">
+                                        <div class="card-body">
+                                          <h6 class="card-title">Pantalon Puma Bmw Mms Sweat De Hombre</h6>
+                                          <p class="card-text">$21.999</p>
+                                        </div>                                       
+                                      </div>
+                                      <div class="col-2 d-flex align-items-center">
+                                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3 card-carrito">
+                                    <div class="row g-0">
+                                      <div class="col-3 d-flex align-items-center">
+                                        <img src="./Img-Remeras/remera hombre1.png" class="img-fluid rounded-start" alt="...">
+                                      </div>
+                                      <div class="col-7">
+                                        <div class="card-body">
+                                          <h6 class="card-title">Remera Puma Ess Tee De Hombre</h6>
+                                          <p class="card-text">$22.999</p>
+                                        </div>
+                                      </div>
+                                      <div class="col-2 d-flex align-items-center">
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-6 d-flex justify-content-center">
+                                      <p class="fw-bold">Total: $77.997 </p>
+                                    </div>
+                                    <div class="col-6 d-flex justify-content-end">
+                                      <a class="btn" href="./404.html" role="button">Comprar carrito</a>
+                                    </div>
+                                </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="link-nav-main d-none d-lg-inline">
+                          <button type="button" class="btn px-0 pe-0 buton"><a href="./Login.html"><i class="bi bi-person"></i> Mi cuenta</a>
+                          </button>
+                            <button class="btn px-0 pe-0 buton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><a href="#"><i class="bi bi-cart4"></i> Carrito</a></button>
+                              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                  </div>     
+              </div>
+              <nav class="navbar navbar-expand-lg bg-body-tertiary nav-expand">
+                <div class="container-fluid container-lg">
+                  <div class="collapse navbar-collapse rounded" id="navbarNavDropdown">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item dropdown mx-5 me-5 mb-2 mb-lg-0 px-3 pe-3">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <b>Hombre</b>
+                            </a>
+                            <ul class="dropdown-menu mb-2">
+                              <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                            </ul>
+                          </li>
+                      <li class="nav-item dropdown mx-5 me-5 mb-2 mb-lg-0  px-3 pe-3">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>Mujeres</b>
+                        </a>
+                        <ul class="dropdown-menu mb-2">
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown mx-5 me-5 mb-2 mb-lg-0 px-3 pe-3">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>Niños</b>
+                        </a>
+                        <ul class="dropdown-menu mb-2">
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-zapatillas-24.png" alt=""> Zapatillas</a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-camiseta-24.png" alt=""> Remeras</a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-pantalones-24.png" alt=""> Pantalones</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown mx-5 me-5 mb-2 mb-lg-0 px-3 pe-3">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>Marcas</b>
+                        </a>
+                        <ul class="dropdown-menu mb-2 text-center">
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-adidas-trébol-filled-70.png" alt="Adidas"></a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-nike-an-american-multinational-corporation---footwear,-apparel,-equipment,-accessories,-and-services-70.png" alt=""></a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-puma-a-german-multinational-company---designs-and-manufactures-athletic-and-casual-footwear,-apparel-and-accessories-70.png" alt=""></a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown mx-5 px-3 pe-3">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>Deportes</b>
+                        </a>
+                        <ul class="dropdown-menu mb-2 text-center">
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-fútbol-2-70.png" alt=""></a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-baloncesto-70.png" alt=""></a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./Img-logos/icons8-voleibol-70.png" alt=""></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+
+        <!-- Fin del Nav-->
+    </header>
+
+    <!--------------------------------------------------------------------------->
+
+    <main>
+        <Section class="container-flui">
+            <div class="d-flex justify-content-center">
+                <img src="./imgbg/Acerca de nosotros.png" class="img-fluid w-100" alt="">
+            </div>
+
+                          
+                <div class="container">
+                    <div class="row">
+                    <p class="col-12 col-md-6 text-center text-md-start fs-4"> <br>
+                    - Permíteme presentarte a nuestro equipo, un grupo entusiasta y talentoso de cuatro jóvenes programadores que comparten una pasión ardiente por la tecnología y la moda deportiva. Juntos, hemos unido fuerzas para dar vida a una emocionante plataforma de comercio electrónico que está destinada a cambiar la forma en que las personas experimentan la compra de ropa deportiva.<br><br>
+                    </p>
+                    <p class="col-12 col-md-6 text-center text-md-start fs-4"> <br>
+                    - Con una mezcla única de creatividad y habilidades técnicas, hemos creado una página web visualmente atractiva y emocionante. Nuestro objetivo es brindar a nuestros clientes una experiencia de compra en línea que sea más que solo transacciones: queremos que sea un viaje emocionante a través de la moda y el deporte. <br><br>
+                    </p> 
+                    </div>
+                
+            </div>
+
+            <div class="container mt-5 mb-5 d-flex justify-content-center">
+                <img src="./imgbg/quienes somso.jpg" class="img-fluid" alt="">
+            </div>
+
+            <div class="container-flui row justify-content-center align-items-center m-0 ">
+                <div class=" col-12 col-md-6 col-lg-2">
+                    <div class="d-flex justify-content-center justify-content-md-end justify-content-lg-center align-items-center mb-5 mt-5">
+                    <div class="card1 d-flex justify-content-center align-items-center">
+                        <div class="promo">
+                            <img src="./imgbg/imagen-perfil1.jpg" class="nosotros" alt="">
+                            <h2 class="text-center p-1">Fortuny, Juan Pablo</h2>
+                        </div>
+                        <div class="text">
+                            <h3 class="text-center p-1">"Facta non verba"</h3>
+                            <p> Edad: 22. <br> 
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-md-6 col-lg-2">
+                    <div class="d-flex justify-content-center justify-content-md-start justify-content-lg-center align-items-center mt-0 mb-5 mt-md-5">
+                    <div class="card1 d-flex justify-content-center align-items-center">
+                        <div class="promo">
+                            <img src="#" class="nosotros" alt="">
+                            <h2 class="text-center p-1">Padilla, Ernesto</h2>
+                        </div>
+                        <div class="text">
+                            <h1>titulo</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptas odit porro similique distinctio natus quibusdam officia minima rerum, maiores culpa fugit? Dicta vel quisquam, iusto sequi fugit labore aut.
+                            </p>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-md-6 col-lg-2">
+                <div class="d-flex justify-content-center justify-content-md-end justify-content-lg-center align-items-center mt-0  mb-5 mt-lg-5">
+                    <div class="card1 d-flex justify-content-center align-items-center">
+                        <div class="promo">
+                            <img src="#" class="nosotros" alt="">
+                            <h2 class="text-center p-1">Araoz, Lisandro</h2>
+                        </div>
+                        <div class="text">
+                            <h1>titulo</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptas odit porro similique distinctio natus quibusdam officia minima rerum, maiores culpa fugit? Dicta vel quisquam, iusto sequi fugit labore aut.
+                            </p>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+                <div class="d-flex justify-content-center justify-content-md-start justify-content-lg-center align-items-center mt-0 mb-5 mt-lg-5">
+                    <div class="card1 d-flex justify-content-center align-items-center">
+                        <div class="promo">
+                            <img src="#" class="nosotros" alt="">
+                            <h2 class="text-center p-1">Barbur, Maximiliano</h2>
+                        </div>
+                        <div class="text">
+                            <h1>titulo</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptas odit porro similique distinctio natus quibusdam officia minima rerum, maiores culpa fugit? Dicta vel quisquam, iusto sequi fugit labore aut.
+                            </p>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container mt-5"> 
+            <h1 class="border-bottom border-dark border-3">Misión Visión y Valores</h1>
+        </div>
+        <article class="container mb-5 mt-5">
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                <div class="card2">
+                <img src="./imgbg/mision.png" class="img-fluid" alt="">
+                <h1 class="text-center">Misión</h1>
+                <p class="p-3">
+                    Nuestra misión es proporcionar a los entusiastas del deporte y la moda una experiencia de compra en línea excepcional a través de nuestra plataforma de comercio electrónico.
+                </p>
+            </div>
+        </div>
+            <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                <div class="card2">
+                <img src="./imgbg/vision.png" class="img-fluid" alt="">
+                <h1 class="text-center">Visión</h1>
+                <p class="p-3">
+                    Aspiramos a convertirnos en el destino líder para la compra de ropa deportiva en línea, reconocidos por nuestra dedicación a la excelencia en tecnología, moda y experiencia del cliente.
+                </p>
+            </div>
+        </div>  
+            
+            <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                <div class="card2">
+                <img src="./imgbg/valores.png" class="img-fluid" alt="">
+                <h1 class="text-center">Valores</h1>
+                <p class="p-3">
+                   <img src="./imgbg/icons8-fútbol-2-24.png" alt=""> -Pasión por la Innovación. <br>
+                   <img src="./imgbg/icons8-fútbol-2-24.png" alt=""> -Excelencia en la Calidad. <br>
+                   <img src="./imgbg/icons8-fútbol-2-24.png" alt=""> -Empatía y Atención al Cliente. <br>
+                   <img src="./imgbg/icons8-fútbol-2-24.png" alt=""> -Integridad y Transparencia. <br>
+                   <img src="./imgbg/icons8-fútbol-2-24.png" alt=""> -Colaboración y Diversidad. <br>
+                </p>
+            </div>
+        </div>
+    </div>                         
+        </article>
+        
+            
+        </Section>
+    </main>
+
+    <!--------------------------------------------------------------------------->
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 pb-2 bg-dark text-white justify-content-center footer-div">
+          <div class="col-12 col-md-4 col-lg-3">
+            <p class="h3 mt-3 mt-md-0">Sporting Gears</p>
+            <p class="text-secondary">Tucuman, San Miguel de Tucuman.</p>
+          </div>
+          <div class="col-xs-12 col-md-4 col-lg-3">
+            <p class="h5 mb-3 mt-3 mt-md-0">Institucional</p>
+            <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">Terminos y Condiciones</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Politicas de Privacidad</a>
+              </div>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="#">Sucursales</a>
+                </div>
+                <div class="mb-2">
+                  <a class="text-secondary text-decoration-none" href="#">Trabaja con nosotros</a>
+                  </div>
+            
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 ">
+            <p class="h5 mb-3 mt-3 mt-md-0">Clientes</p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Politicas de Cambio</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Realizar un cambio</a>
+              </div>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="#">Preguntas frecuentes</a>
+                </div>
+                <div class="mb-2">
+                  <a class="text-secondary text-decoration-none" href="#">Creditos Personales</a>
+                  </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <p class="h5 mb-3 mt-3 mt-lg-0">Social</p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#"><i class="bi bi-instagram"></i> Instagram</a>
+              </div>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="#"><i class="bi bi-facebook"></i> Facebook</a>
+                </div>
+                <div class="mb-2">
+                  <a class="text-secondary text-decoration-none" href="#"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                  </div>
+          </div>
+          <div class="col-12 pt-4">
+            <p class="text-white text-center">Copyright - All rights reserved © 2023</p>
+          </div>
+        </div>
+        </div> 
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
