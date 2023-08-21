@@ -99,6 +99,11 @@
     color: #000;
 }
 
+.btn{
+    background-color: #002A61;
+    color: white;
+}
+
 /* Fin del Main */
 
 @media (max-width: 991.98px){ /*Vista de Celular*/

@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.comentario {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform .2s;
+    text-decoration: none;
+}
+
+.comentario:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    color: #007bff;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.card-title:hover {
+    color: darkcyan;
+    text-decoration: underline; 
+    cursor: pointer;     
+}
+
+.container {
+    margin-top: 50px;
+}
+.perfil-img {
+    width: 50px; /* Ajusta el ancho de acuerdo a tu diseño */
+    height: 50px; /* Ajusta la altura de acuerdo a tu diseño */
+    border-radius: 50%; /* Para que las imágenes sean redondas */
+    object-fit: cover; /* Para que la imagen ocupe todo el espacio disponible */
+    margin-right: 10px; /* Espaciado entre la imagen y el nombre */
+}

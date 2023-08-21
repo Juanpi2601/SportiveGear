@@ -6,8 +6,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./Styles/Index.css">
-    <link rel="stylesheet" href="./Styles/categorias.css">
-    <title>Categorias</title>
+    <link rel="stylesheet" href="./Styles/Detalle-producto.css">
+    <title>Detalle de Producto</title>
 </head>
 <body>
     <header>
@@ -103,7 +103,7 @@
                       <div class="col-10 col-lg-12 d-flex justify-content-end justify-content-md-center align-items-center title-section">
                         
                         <div class="-titulo">
-                          <a href="index.html"><h3 class="me-0 me-md-4">SportiveGear</h3></a>        
+                          <a href="index.html"><h3 class="me-0 me-md-4">SportiveGear</h3></a>      
                         </div>
                         <!--Modal de busqueda-->
                         <div class="d-md-none">
@@ -290,150 +290,35 @@
     </header>
 
     <!--------------------------------------------------------------------------->
-
-    <main class="container-fluid">
-
-      <div class="">
-        <h1 class="text-center mt-4">Pantalones</h1>
-      <p class="description">Descubre la comodidad y estilo en cada paso con nuestras pantalones deportivos</p>
-      <div class="d-flex align-items-center justify-content-center">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/P1zOY2wjOQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-       </div>
+    <main>
+        <div class="container">
+            <div class="row">
+            <h2 class="mb-4">Comentarios</h2>
+            <div class="comentarios">
+                <div class="comentario card p-4">
+                    <img src="/imgcomentarios/perfil 1.png" alt="Foto de Ana Martínez" class="perfil-img">
+                    <h5 class="card-title">Ana_Martinez</h5>
+                    <p class="card-text">Muy buenos precios!!</p>
+                </div>
+                
+                
+                <div class="comentario card p-4">
+                    <img src="/imgcomentarios/perfil 2.jpg" alt="Foto de Carlos Del Sol" class="perfil-img">
+                    <h5 class="card-title">CarlosDelSol</h5>
+                    <p class="card-text">Muy buena la atencion al cliente</p>
+                </div>
+        
+                <div class="comentario card p-4">
+                    <img src="/imgcomentarios/perfil 3.png" alt="Foto de Juan Torres" class="perfil-img">
+                    <h5 class="card-title">Juan_Torres</h5>
+                    <p class="card-text">Muy buenos precios, pero demoran mucho en atender.</p>
+                </div>
+            </div>
+        </div>
     </div>
         
-    <div class="container">
-      <div class="d-flex justify-content-evenly d-lg-none mt-5 mb-3 ">
-        <a class=" botones rounded" href="#" role="button">Filtrar por:</a>
-        <a class=" botones rounded" href="#" role="button">Ordenar por:</a>
-    </div>
-    </div>
-    
-<div class="container-fluid px-0 mt-5">
-    <div class="row justify-content-lg-evenly">
-        <div class="d-none d-lg-inline col-lg-3">
-          <h3 class="text-start px-3">Filtrar Por:</h3>
-          <div class="accordion" id="filterAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMarcas">
-                  Marcas
-                </button>
-              </h2>
-              <div id="collapseMarcas" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="Marcas" value="Adidas" id="chkAdidas">
-                    <label class="form-check-label" for="chkAdidas">Adidas</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="Marcas" value="Nike" id="chkNike">
-                    <label class="form-check-label" for="chkNike">Nike</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="Marcas" value="Puma" id="chkMarcas">
-                    <label class="form-check-label" for="chkMarcas">Puma</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDisciplinas">
-                  Disciplinas
-                </button>
-              </h2>
-              <div id="collapseDisciplinas" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="discipline" value="futbol" id="chkFutbol">
-                    <label class="form-check-label" for="chkFutbol">Fútbol</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="discipline" value="basketball" id="chkBasketball">
-                    <label class="form-check-label" for="chkBasketball">Basket</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="discipline" value="tenis-mesa" id="chkPingpong">
-                    <label class="form-check-label" for="chkPingpong">Ping pong</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePrecios">
-                  Precios
-                </button>
-              </h2>
-              <div id="collapsePrecios" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="Precio" value="Menor" id="chkMenor">
-                    <label class="form-check-label" for="chkMenor">$9.999</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="Precio" value="Medio" id="chkMedio">
-                    <label class="form-check-label" for="chkMedio">$1.9999</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="Precio" value="Mayor" id="chkMayor">
-                    <label class="form-check-label" for="chkMayor">$29.999</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-8">
-            <div class="d-md-flex ">
-                <div class="card mb-3 me-lg-4">
-                    <img src="./img-Pantalones/Pantalones niños1.png" class="  card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Pantalon Fila Pantalon Juvenil de Niño</h5>
-                        <p class="card-text">$14.499</p>
-                        <a href="#" class="btn botones">Comprar</a>
-                    </div>
-                </div>
-
-                <div class="card mb-3 me-lg-4">
-                    <img src="./img-Pantalones/pantalon niño2.png" class=" card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Pantalon Puma Ess Sweatpants de Niño</h5>
-                        <p class="card-text">16.999</p>
-                        <a href="#" class="btn botones">Comprar</a>
-                    </div>
-                </div>
-                <div class="card mb-3 me-lg-4">
-                    <img src="./img-Pantalones/pantalones niños3.png" class=" card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Pantalon Topper Pantalon Boys Negro de Niño</h5>
-                        <p class="card-text">$18.999</p>
-                        <a href="#" class="btn botones">Comprar</a>
-                    </div>
-                </div>
-                <div class="card mb-3 me-lg-4">
-                    <img src="./img-Pantalones/pantalones niños4png.png" class=" card-img-top " alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Pantalon Topper Alon Frs Boys Basicos Chup de Niño</h5>
-                        <p class="card-text">$15.999</p>
-                        <a href="#" class="btn botones">Comprar</a>
-                    </div>
-                </div>
-            </div>                
-            </div>
-        </div>
-</div>
-<nav class="mt-5 container" aria-label="Page navigation example">
-    <ul class="pagination justify-content-center">
-      <li class="page-item "><a class="page-link" href="#">Previous</a></li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item"><a class="page-link" href="#">Next</a></li>
-    </ul>
-  </nav>
     </main>
-
+    
     <!--------------------------------------------------------------------------->
     <footer>
       <div class="container-fluid">
